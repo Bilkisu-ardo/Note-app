@@ -27,7 +27,7 @@ function AddNote(props) {
         placeholder="Content"
         textarea
       />
-      <button onClick={handleClick} className={`btn`} disabled={!content}>
+      <button onClick={handleClick} className={`btn`} disabled={!title}>
         Save
       </button>
     </div>
